@@ -71,8 +71,9 @@ class StarRater extends HTMLElement {
     style.textContent = `
     .star-rater {
       width: 350px;
-      text-align: center;
-      padding: 0 10px 10px 10px;
+      display:flex;
+      justify-content:center;
+      padding: 20px;
       border-radius: 1rem;
       background-color: #8a59a7a6;
     }
